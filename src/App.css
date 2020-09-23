@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.center {
+  margin: auto;
+  width: 20%;
+  padding: 10px;
+}
+
+.todo-row{
+  padding: 2px;
+}
+.todo-add-btn{
+  height: 32px;
+}
+.todotext-align{
+  text-align: left;
+}

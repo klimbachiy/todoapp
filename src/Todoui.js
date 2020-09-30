@@ -10,7 +10,7 @@ class Todoui extends React.Component{
             <div  className="content">
                 <ul>
                 {this.props.todos.map(todo=>{
-                    return <li className="todotext-align" key={todo.id}>{todo.name}<button  className="btndelete" onClick={()=>{this.handleClick(todo.id)}}>Delete</button></li>
+                    return <li key={todo.id}>{todo.name}<button  className="btndelete" onClick={()=>{this.handleClick(todo.id)}}>Delete</button></li>
                 })}
                 </ul>
             </div>

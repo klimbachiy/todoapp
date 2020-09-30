@@ -21,8 +21,8 @@ class Addtodo extends React.Component{
         return(
             <div className="data">
                 <form onSubmit={this.handleSubmit}>
-                <input  className="datainput" type="text" onChange={this.handleChange} value={this.state.name}/>
-                <button>Add</button>
+                    <input  className="datainput" type="text" onChange={this.handleChange} value={this.state.name}/>
+                    <button>Add</button>
                 </form>
             </div>
         )

@@ -36,19 +36,44 @@
     transform: rotate(360deg);
   }
 }
+body{
+  font-family:Comic Sans MS, cursive, sans-serif;
+  }
+  h1{
+  font-size:60px;
+  text-align:center;
+  position:relative;
+  color:rgb(23,76,69);
+  }
+  .content{
+  position:absolute;
+  margin-left:390px;
+  margin-top:20px;
+  height:300px;
+  width:40%;
+  }
+  button{
+  color:white;
+  background-color:rgb(23,76,69);
+  border-radius:5px;
+  height:30px;
+  padding-top:2px;
+  }
+  .datainput{
+  height:30px;
+  width:150px;
+  }
+  .data{
+  margin-left:580px;
+  }
+  li{
+  border-bottom:1px solid black;
+  padding:10px;
+  }
+  .btndelete{
+  float:right;
+  }
+  .imgcls{
+    margin-left:40%;
+  }
 
-.center {
-  margin: auto;
-  width: 20%;
-  padding: 10px;
-}
-
-.todo-row{
-  padding: 2px;
-}
-.todo-add-btn{
-  height: 32px;
-}
-.todotext-align{
-  text-align: left;
-}

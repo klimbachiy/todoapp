@@ -27,7 +27,7 @@ class Todo extends React.Component{
     }
     render(){
         return(
-            <div className="center">
+            <div>
                 <Addtodo addTodo={this.addTodo}/>  
                 <br/>
                 <Todoui todos={this.state.todos} deleteTodo={this.deleteTodo}/>  

@@ -4,9 +4,9 @@ import TodoImg from './todo.jpg'
 
 function App() {
   return (
-    <div className="App container-fluid">
+    <div>
       <h1>ToDo App</h1>
-      <img src={TodoImg} alt="ToDo"/>
+      <img className="imgcls" src={TodoImg} alt="ToDo"/>
       <Todo/>
     </div>
   );

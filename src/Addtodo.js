@@ -19,14 +19,10 @@ class Addtodo extends React.Component{
     }
     render(){
         return(
-            <div className="md-form">
+            <div className="data">
                 <form onSubmit={this.handleSubmit}>
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="todo" onChange={this.handleChange} value={this.state.name}/>
-                    <div class="input-group-append">
-                        <button class="btn btn-success" type="submit">Add</button>
-                    </div>
-                </div>
+                <input  className="datainput" type="text" onChange={this.handleChange} value={this.state.name}/>
+                <button>Add</button>
                 </form>
             </div>
         )
